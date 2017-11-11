@@ -1,0 +1,18 @@
+
+.video-tesla {
+width: 100%    !important;
+height: auto   !important;
+        min-width: 100vh;
+        min-height: auto;
+        max-height: 100vh;
+        position: sticky;
+        left: 0%;
+        top: 0%;
+        right: 0%;
+        display: inline-block;
+}
+
+.slider {
+  margin-top: 0;
+
+}
