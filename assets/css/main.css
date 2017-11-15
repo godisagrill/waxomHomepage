@@ -11,15 +11,134 @@
 
 
 /*CSS Tomka*/
+.nav-bar {
+width: 100%;
+opacity: 20%;
+height: 56px;
+padding: 0 16px;
+top: 0;
+z-index: 99;
+position: fixed;
+
+}
+
+
+.menu{
+  padding-right: 40px;
+  float: right;
+  margin-right: 0;
+  padding-top: 10px;
+  font-family: Roboto sans-serif;
+  list-style-type: none;
+  text-transform: uppercase;
+}
+
+
+
+ul {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+    clear: none;
+}
+
+li a {
+  color: white;
+  font-size: 20px;
+  font-family: Roboto sans-serif;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-decoration: none;
+  display: block;
+  float:left;
+
+
+}
+
+li {
+float: left;
+list-style-type: none;
+width: 150px;
+
+}
+
+.tesla-logo{
+
+  padding-top: 5px;
+  margin-top: 5px;
+float: left;
+}
+
+
+.video-tesla {
+width: 100%    !important;
+height: auto   !important;
+        min-width: 100vh;
+        min-height: auto;
+        max-height: 100vh;
+        position: sticky;
+        left: 0%;
+        top: 0%;
+        right: 0%;
+        display: inline-block;
+}
+
+.slider {
+  margin-top: 0;
+
+}
+
 
 
 
 
 
 /*CSS Przemka*/
+#blogsection{
+  margin-top: 50px;
+  text-align: center;
+  color: #797E82;
+
+}
+
+#blogsection h2 {
+  margin-bottom: 20px;
+}
+
+#blogdesc{
+  margin-bottom: 40px;
+}
+
+.blogelement {
+  padding: 0 50px;
+}
 
 
+.fota {
+  width: 100%;
+  background-size: cover;
+  height: 200px;
+  background-position: center;
+  margin-bottom: 10px;
+}
 
+.tesla1{ background-image: url(../img/tesla1.jpg); }
+.tesla2{ background-image: url(../img/tesla2.jpg); }
+.tesla3{ background-image: url(../img/tesla3.jpg); }
+
+.data {
+  float: left;
+  padding:  10px;
+  line-height: 0.7;
+  color: white;
+  background-color: #888888;
+  padding-bottom: 0;
+  margin: 3px;
+}
 
 
 /*CSS Michala*/
