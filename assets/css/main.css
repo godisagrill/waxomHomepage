@@ -5,7 +5,53 @@
 
 
 /*CSS Marcina*/
-
+.footer-backgr {
+  background-color: #111111 ;
+  margin: 0;
+	padding: 10px;
+	font-size: 18px;
+	min-height: 38px;
+	line-height: 200%;
+  font-size: 12px;
+  color: #555555;
+}
+.footer-cont-left {
+  float: left;
+  padding: 10px;
+  margin-top: 10px;
+}
+.footer-cont-right {
+  float: right;
+  padding: 10px;
+  margin-top: 10px;
+  text-align: right;
+  margin-right: 10px;
+}
+.footer-backgr a {
+  color: #555555;
+}
+.footer-backgr a:hover {
+  color: #959595;
+  text-decoration: none;
+}
+.footer-cont-left p {
+  border-left: 1px solid black;
+	padding-left: 20px;
+	padding-right: 20px;
+  display: inline-block;
+}
+.footer-cont-right p {
+  border-left: 1px solid black;
+	padding-left: 20px;
+	padding-right: 20px;
+  display: inline-block;
+}
+.footer-cont-right p:first-child {
+  border-left: none;
+}
+.footer-cont-left p:first-child {
+  border-left: none;
+}
 
 
 
