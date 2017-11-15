@@ -17,9 +17,47 @@
 
 
 /*CSS Przemka*/
+#blogsection{
+  margin-top: 50px;
+  text-align: center;
+  color: #797E82;
+
+}
+
+#blogsection h2 {
+  margin-bottom: 20px;
+}
+
+#blogdesc{
+  margin-bottom: 40px;
+}
+
+.blogelement {
+  padding: 0 50px;
+}
 
 
+.fota {
+  width: 100%;
+  background-size: cover;
+  height: 200px;
+  background-position: center;
+  margin-bottom: 10px;
+}
 
+.tesla1{ background-image: url(../img/tesla1.jpg); }
+.tesla2{ background-image: url(../img/tesla2.jpg); }
+.tesla3{ background-image: url(../img/tesla3.jpg); }
+
+.data {
+  float: left;
+  padding:  10px;
+  line-height: 0.7;
+  color: white;
+  background-color: #888888;
+  padding-bottom: 0;
+  margin: 3px;
+}
 
 
 /*CSS Michala*/
